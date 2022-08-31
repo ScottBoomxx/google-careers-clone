@@ -17,6 +17,7 @@
               v-for="menuItem in menuItems"
               :key="menuItem"
               class="h-full ml-9 first:ml-0 text-[#5f6368] hover:text-[#202124]"
+              data-test="main-nav-list-item"
             >
               <a href="" class="flex items-center h-full py-2.5">{{
                 menuItem
