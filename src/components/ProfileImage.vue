@@ -2,7 +2,7 @@
   <img
     :src="imageLink"
     :alt="imageDescription"
-    class="w-8 h-8 object-contain rounded-xl"
+    class="w-8 h-8 object-contain rounded-full"
   />
 </template>
 

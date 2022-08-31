@@ -26,4 +26,38 @@ describe("MainNav", () => {
       "Students",
     ]);
   });
+
+  describe("when use is logged out", () => {
+    it("prompts user to sign in", () => {
+      const wrapper = mount(MainNav, {
+        data() {
+          return {
+            isLoggedIn: false,
+          };
+        },
+      });
+      const loginButton = wrapper.find("[data-test='login-button']");
+      const profileImage = wrapper.find("[data-test='profile-image']");
+
+      expect(loginButton.exists()).toBe(true);
+      expect(profileImage.exists()).toBe(false);
+    });
+  });
+
+  describe("when use is logged in", () => {
+    it("displays user profile picture", () => {
+      const wrapper = mount(MainNav, {
+        data() {
+          return {
+            isLoggedIn: true,
+          };
+        },
+      });
+      const loginButton = wrapper.findComponent({ name: "ActionButton" });
+      const profileImage = wrapper.findComponent({ name: "ProfileImage" });
+
+      expect(loginButton.exists()).toBe(false);
+      expect(profileImage.exists()).toBe(true);
+    });
+  });
 });
