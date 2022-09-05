@@ -13,7 +13,7 @@ export default {
     return {
       imageLink:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy20OLr_4RscxSP5Sj7wA9LNzGSvfMbC8a0Q&usqp=CAU",
-      imageDescription: "a photo of mr peanutbutter",
+      imageDescription: "a photo of the user",
     };
   },
 };

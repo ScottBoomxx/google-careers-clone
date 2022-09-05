@@ -29,3 +29,10 @@
 // const squares = numbers.map((number) => number * number);
 
 // console.log(squares);
+
+// const favoriteFood = "sushi";
+// const goodFoods = {
+//   [favoriteFood]: true,
+// };
+
+// console.log(goodFoods);
