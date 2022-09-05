@@ -68,6 +68,7 @@
           />
         </div>
       </div>
+      <sub-nav />
     </div>
   </header>
 </template>
@@ -75,12 +76,14 @@
 <script>
 import ActionButton from "@/components/ActionButton.vue";
 import ProfileImage from "@/components/ProfileImage.vue";
+import SubNav from "@/components/Subnav.vue";
 
 export default {
   name: "MainNav",
   components: {
     ActionButton,
     ProfileImage,
+    SubNav,
   },
   data() {
     return {
