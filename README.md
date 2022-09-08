@@ -1,5 +1,7 @@
 # job-search
 
+### A code-along project, replica of Google Careers page using Vue.js and Tailwind CSS from https://www.udemy.com/share/106gyg3@V0ZCGiV09U15MWEoJ3LpwytnwQIZwkbSeGz5AtSrMBYpNn8cZgbUnjIWVnzPYz0cEw==/
+
 ## Project setup
 ```
 npm install
