@@ -1,6 +1,6 @@
 # job-search
 
-### A code-along project, replica of Google Careers page using Vue.js and Tailwind CSS from https://www.udemy.com/course/vue-masterclass
+#### A code-along project, replica of Google Careers page using Vue.js and Tailwind CSS from https://www.udemy.com/course/vue-masterclass
 
 ## Project setup
 ```
