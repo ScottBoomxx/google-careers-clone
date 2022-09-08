@@ -19,11 +19,11 @@ describe("MainNav", () => {
     console.log(navigationMenuTexts);
 
     expect(navigationMenuTexts).toEqual([
-      "Teams",
-      "Locations",
-      "Benefits",
-      "Jobs",
-      "Students",
+      "Sports",
+      "Politics",
+      "Technology",
+      "Science",
+      "Economy",
     ]);
   });
 

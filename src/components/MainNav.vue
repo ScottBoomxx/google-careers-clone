@@ -89,7 +89,7 @@ export default {
     return {
       company: "Careers",
       url: "http://localhost:8080/",
-      menuItems: ["Teams", "Locations", "Benefits", "Jobs", "Students"],
+      menuItems: ["Sports", "Politics", "Technology", "Science", "Economy"],
       isLoggedIn: false,
     };
   },
